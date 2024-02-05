@@ -1,0 +1,8 @@
+.cph/
+.vscode/
+*.txt
+*.exe
+*.bin
+readme.md
+p.cpp
+tempCodeRunnerFile.cpp
