@@ -14,7 +14,7 @@ public:
 };
 void dijkstra(int src, int cost)
 {
-    priority_queue<pair<int, int>, vector<pair<int, int>>> pq;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> pq;
     pq.push({src, cost});
     dist[src] = cost;
     while (!pq.empty())
